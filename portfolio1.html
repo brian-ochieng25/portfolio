@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Ochieng's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5444; /* Initial dark grey */
+            color: #fff; /* White text for contrast */
+            animation: backgroundChange 10s infinite alternate;
+        }
+
+        @keyframes backgroundChange {
+            0% { background-color: #333; } /* Dark grey */
+            50% { background-color: #444; } /* Slightly lighter grey */
+            100% { background-color: #333; } /* Dark grey */
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.1); /* Semi-transparent header */
+            color: #fff; /* White text for contrast */
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: orange; /* Set heading colors to orange */
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2); /* Semi-transparent section background */
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(255, 255, 255, 0.1); /* Semi-transparent footer */
+            color: #fff; /* White text for contrast */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            background: #555; /* Darker button color */
+            color: white; /* Text color */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button[type="reset"] {
+            background: #777; /* Light grey for reset button */
+        }
+        button:hover {
+            background: #666; /* Darker gray on hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brian Ochieng's Portfolio</h1>
+    <!-- Image with a link at the top -->
+    
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtGbK124YYWfS6_Rdjicw9MBJmWveXQCrK6A&s" alt="Profile Picture" style="max-width: 200px; height: auto; border-radius: 50%;">
+    </a>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p> I am a driven and ambitious individual with a deep passion for technology, creativity, and innovation. With a strong desire to make an impact, I constantly explore new ways to expand my knowledge and skills, particularly in web development and database management.</p>
+    <p>My passion lies in problem-solving and leveraging technology to create solutions that improve lives. I am especially fascinated by web development, where I enjoy building functional and visually appealing applications. Motivated by a relentless curiosity and a desire for continuous learning, I believe that technology is a powerful tool for innovation. I strive to master new skills that will allow me to contribute meaningfully to the digital world.</p>
+</section>
+
+<section id="education">
+    <h2>Education Background</h2>
+    <p>Networking and Internet of Things
+        African Advanced Level  of Telecommunication Institute
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+    <a href="path/to/your/cv.pdf" download>Download CV</a>
+</section>
+
+<section id="interests">
+    <h2>Interests</h2>
+    <p>What excites me about tech is its endless potential to innovate and solve real-world problems. Every day, theres something new to discover, whether it’s a breakthrough in artificial intelligence, a new way to create interactive websites, or a fresh approach to tackling big data.</p>
+    <p>I’m especially passionate about how technology can enhance learning and communication, enabling people to access knowledge and collaborate like never before. My professional interests include web development, IoT, and optimizing existing systems.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number (optional):</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label for="file">File Upload (optional):</label>
+        <input type="file" id="file" name="file">
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Brian Ochieng. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
